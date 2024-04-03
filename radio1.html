@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Radio Online</title>
+    <style>
+        body {
+            font-family: 'Scriptina', cursive;
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            position: relative;
+        }
+        header {
+            background-color: transparent;
+            color: gold;
+            padding: 20px;
+            text-align: center;
+            font-size: 35.2px;
+            text-shadow: 0 0 10px rgba(255, 215, 0, 0.5), 0 0 20px rgba(255, 215, 0, 0.5), 0 0 30px rgba(255, 215, 0, 0.5);
+        }
+        section {
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.8);
+            border-radius: 20px;
+            margin: 82px 20px 50px; /* Se mueve más abajo 16 líneas */
+            text-align: center;
+            color: #fff;
+            position: relative;
+            z-index: 1;
+        }
+        footer {
+            background-color: transparent;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .background-gif {
+            position: absolute;
+            width: 400px;
+            height: 400px;
+            background-image: url('file:///Users/jannus/Desktop/VCsI.gif');
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 50%;
+            z-index: 0;
+        }
+        .background-gif-top-left {
+            top: -100px;
+            left: -100px;
+        }
+        .background-gif-top-right {
+            top: -100px;
+            right: -100px;
+        }
+        section a.button {
+            display: inline-block;
+        }
+        section img {
+            width: 600px;
+            margin-top: 20px;
+        }
+        .main-text {
+            font-size: 30.52px; /* Aumentar el tamaño del texto principal en un 20% */
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Bienvenido a Radio Tic-Terra Do Incio</h1>
+</header>
+
+<section>
+    <h2>Escucha nuestra radio en línea:</h2>
+    <p class="main-text">¡Sintoniza la mejor música cada día de 19h a 20h, excepto los sábados y domingos. ¡Gracias!</p>
+    <a href="https://acantinaradio.radio12345.com/#" target="_blank" class="button"><img src="file:///Users/jannus/Desktop/img.png" alt="Descripción de la imagen"></a>
+</section>
+
+<footer>
+    <h2>Escucha nuestra radio en línea:</h2>
+    <p>&copy; 2024 Mi Radio Online</p>
+</footer>
+
+<div class="background-gif background-gif-top-left"></div>
+<div class="background-gif background-gif-top-right"></div>
+
+</body>
+</html>
